@@ -1,0 +1,21 @@
+{
+  "execution_timestamp": "2026-10-25T12:35:50Z",
+  "duration_seconds": 0.14,
+  "environment": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "platform": "win32",
+    "deterministic_execution": true,
+    "model_api_calls": 0,
+    "model_provider": "local_rule_engine"
+  },
+  "input_hashes": {
+    "cases.jsonl": "3d6f14057f6e94a22d221054400fd36d55b42b09f80035f3eaaa3dec9117493f",
+    "splits.csv": "8cec3890577ab99899c09340912e3807d7617bc71b194ecc6a1790acdd354eab",
+    "ground_truth.csv": "fd45827a3061215f1150fab6cd263ba499b721261b892f9e2a132ce01343258d"
+  },
+  "output_hashes": {
+    "predictions.jsonl": "ac17121d01625fd62d15242388c31c2d644e048a48241ac3ab1896b38f39e728",
+    "case_level_comparison.csv": "7b3ccf6cc2997cf7b835edc7f68bc8ded1399b94b474d5823e1b01b7cca363c1"
+  },
+  "adapter_details": "scripts/benchmark_adapter.py (Phase B adapter stripping 'expected' prior to inference)"
+}

@@ -1,0 +1,45 @@
+{
+  "benchmark_name": "PHANTOM Real-World-Style Evidence Benchmark",
+  "benchmark_version": "1.0.0",
+  "test_holdout_metrics": {
+    "cases_attempted": 150,
+    "cases_completed": 150,
+    "status_accuracy_pct": 56.67,
+    "status_numerator": 85,
+    "status_denominator": 150,
+    "status_95_ci": [
+      48.67,
+      64.33
+    ],
+    "exact_case_accuracy_pct": 55.33,
+    "exact_case_fields": [
+      "status",
+      "failure_mode",
+      "severity"
+    ],
+    "failure_mode_accuracy_pct": 92.0,
+    "severity_accuracy_pct": 92.0,
+    "step_sequence_accuracy_pct": 38.0,
+    "step_precision_pct": 100.0,
+    "step_recall_pct": 92.13,
+    "step_f1": 95.91
+  },
+  "full_diagnostic_1000_cases": {
+    "cases_attempted": 1000,
+    "cases_completed": 1000,
+    "status_accuracy_pct": 59.1,
+    "status_numerator": 591,
+    "status_denominator": 1000,
+    "status_95_ci": [
+      56.02,
+      62.11
+    ],
+    "exact_case_accuracy_pct": 58.5,
+    "failure_mode_accuracy_pct": 93.2,
+    "severity_accuracy_pct": 93.2,
+    "step_sequence_accuracy_pct": 38.8,
+    "step_precision_pct": 100.0,
+    "step_recall_pct": 92.7,
+    "step_f1": 96.21
+  }
+}

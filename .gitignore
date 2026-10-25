@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary scratch & large synthetic benchmark
+scratch/
+phantom_real_world_benchmark/
+
+# Local standalone submission deliverables
+code.zip
+agent-trace.zip
+output.csv

@@ -1,0 +1,17 @@
+domain,total_cases,status_correct,status_acc_pct,exact_acc_pct
+advertising_analytics,59,36,61.02,61.02
+cloud_infrastructure,55,31,56.36,56.36
+cybersecurity,70,40,57.14,57.14
+ecommerce,75,48,64.0,62.67
+education,65,39,60.0,58.46
+enterprise_multitenant,63,31,49.21,49.21
+financial_services,54,34,62.96,62.96
+gaming_media,54,38,70.37,70.37
+government_public_services,57,32,56.14,56.14
+healthcare,58,32,55.17,51.72
+hr_payroll,45,30,66.67,66.67
+logistics,69,44,63.77,63.77
+manufacturing_iot,77,44,57.14,57.14
+saas,82,49,59.76,57.32
+telecommunications,50,26,52.0,52.0
+travel_hospitality,67,37,55.22,55.22
